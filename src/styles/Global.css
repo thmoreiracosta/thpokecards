@@ -3,14 +3,56 @@
 	padding: 0;
 	box-sizing: border-box;
 	font-size: 100%;
-	text-decoration: none;
+}
+
+ul {
 	list-style: none;
+}
+
+a {
+	text-decoration: none;
 }
 
 body {
 	background-image: url(../assets/fundo-site.png);
-	background-size: cover;
-	max-height: 100vh;
 	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 100vh;
 	font-family: "Outfit", sans-serif;
+}
+
+@media (max-width: 660px) {
+	.slider-container {
+		padding: 0 10px;
+		gap: 140px;
+		margin-top: 10px;
+	}
+	.card-item {
+		width: 270px;
+		height: 480px;
+	}	
+
+	.card-image img {
+		text-align: center;
+		max-width: 100%;
+		margin: 0 auto;				
+	}
+
+	.slider-container-btn-1 {
+		padding: 20px;
+		width: 20px;
+		height: 20px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.slider-container-btn-2 {
+		padding: 20px;
+		width: 20px;
+		height: 20px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
 }
