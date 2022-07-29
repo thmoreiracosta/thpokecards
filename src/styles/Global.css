@@ -1,0 +1,16 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 100%;
+	text-decoration: none;
+	list-style: none;
+}
+
+body {
+	background-image: url(../assets/fundo-site.png);
+	background-size: cover;
+	max-height: 100vh;
+	background-repeat: no-repeat;
+	font-family: "Outfit", sans-serif;
+}

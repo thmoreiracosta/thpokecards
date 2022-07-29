@@ -1,0 +1,28 @@
+.list-pokemons {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.card-item {
+	margin-top: 425px;
+	display: list-item;
+	text-align: -webkit-match-parent;
+	position: absolute;
+	max-width: 320px;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	opacity: 1;
+	padding: 15px;
+	border-radius: 10px;
+	transition: opacity 0.4s ease-in-out 0s;
+}
+@media (max-width: 900px) {
+	.card-item {
+		width: 60%;
+		min-height: 445px;
+	}
+}
+
+.fundo-1 {
+	background: url(../imagens/fundo-card-1.jpg) no-repeat;
+}
