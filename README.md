@@ -1,27 +1,9 @@
-<h1 align='center'>
-  Th PokeCard Week 💻
-</h1>
+# Th PokeCard Week 💻
+## Site desenvolvido com tecnologia ReactJS e TypeScript simulando uma pokédex pokémon, consumindo uma API instanciada no graphCMS.
 
-<p align='center'>
-  <img alt='' src='https://i.imgur.com/Iuhwd70.png'>
-</p>
+- Deploy: https://thpokecards.vercel.app/
 
-<p>
-Site desenvolvido com tecnologia ReactJS e TypeScript simulando uma pokédex pokémon, consumindo uma API instanciada no graphCMS.
-</p>
-
-<p align='center'>
-  <img alt='' src='https://i.imgur.com/0VB9Hv5.png'>
-</p>
-<p align='center'>
-  <img alt='' src='https://global-uploads.webflow.com/61d83a2ebb0ae01ab96e841a/629f88dc97a53624a1b5c110_aplication-ignitelabs%20(1).png'>
-</p>
-<p align='center'>
-  <img alt='' src='https://i.imgur.com/invQoa8.png'>
-</p>
-<p align='center'>
-  <img alt='' src='https://i.imgur.com/pQC58PI.png'>
-</p>
+![Imagem site](./src/assets/foto-readme_1.png)
 
 ### 🚀 Conhecimentos desenvolvidos
 - ReactJS
