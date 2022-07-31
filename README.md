@@ -4,7 +4,8 @@
 - Deploy: https://thpokecards.vercel.app/
 
 ![Imagem site](./src/assets/foto-readme_1.png)
-![Imagem site:centered](./src/assets/foto-readme_2.png)
+![Imagem site](./src/assets/foto-readme_2.png)
+{: height="36px" width="36px"}
 
 ### 🚀 Conhecimentos desenvolvidos
 - ReactJS
