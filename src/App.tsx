@@ -1,12 +1,14 @@
+import Card from './components/Card/Card'
 import Header from './components/Header/Header'
-import Slider from './components/Slider/Slider'
+
 
 export default function App () {
+ 
+
   return (
     <>
-      <Header />
-      <Slider />
-      
+      <Header />      
+      <Card />
     </>
   )
 }
