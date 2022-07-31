@@ -2,7 +2,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	flex-direction: column;	
+	flex-direction: column;		
 }
 
 .card-item {	
@@ -15,7 +15,7 @@
 	opacity: 0;
 	padding: 15px;
 	border-radius: 10px;
-	transition: opacity 0.4s ease-in-out 0s;	
+	transition: opacity 0.4s ease-in-out 0s;		
 }
 
 .card-info {
@@ -47,12 +47,13 @@
 	max-width: 100%;
 	max-height: 280px;
 	padding: 10px;
-	margin: 0 auto;
+	margin: 0 auto;	
 }
 
 .card-item.selected {
 	opacity: 1;
 	z-index: 1;
+		
 }
 
 .card-description {
@@ -76,14 +77,17 @@
 	overflow-y: auto;	
 }
 
+.background-0 {
+	background: url(../../assets/fundo-card-1.jpg) no-repeat;		
+}
 .background-1 {
-	background: url(../../assets/fundo-card-1.jpg) no-repeat;
+	background: url(../../assets/fundo-card-2.jpg) no-repeat;		
 }
 .background-2 {
-	background: url(../../assets/fundo-card-2.jpg) no-repeat;
+	background: url(../../assets/fundo-card-3.jpg) no-repeat;		
 }
 .background-3 {
-	background: url(../../assets/fundo-card-3.jpg) no-repeat;
+	background: url(../../assets/fundo-card-4.jpg) no-repeat;		
 }
 
 
