@@ -33,8 +33,7 @@ export interface GetPokedexResponse {
 export default function Card () {
   const { data } = useQuery<GetPokedexResponse>(GET_POKEDEX_QUERY)
 
-  const array = data?.pokedexs
-  console.log(array)
+  const array = data?.pokedexs  
   const [card, setCard] = useState(0)  
 
   function passIncrementCard () {
